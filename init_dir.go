@@ -7,15 +7,15 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/rfjakob/gocryptfs/v2/internal/configfile"
-	"github.com/rfjakob/gocryptfs/v2/internal/cryptocore"
-	"github.com/rfjakob/gocryptfs/v2/internal/exitcodes"
-	"github.com/rfjakob/gocryptfs/v2/internal/fido2"
-	"github.com/rfjakob/gocryptfs/v2/internal/nametransform"
-	"github.com/rfjakob/gocryptfs/v2/internal/readpassword"
-	"github.com/rfjakob/gocryptfs/v2/internal/stupidgcm"
-	"github.com/rfjakob/gocryptfs/v2/internal/syscallcompat"
-	"github.com/rfjakob/gocryptfs/v2/internal/tlog"
+	"github.com/tejzpr/gocryptfs/v2/pkg/configfile"
+	"github.com/tejzpr/gocryptfs/v2/pkg/cryptocore"
+	"github.com/tejzpr/gocryptfs/v2/pkg/exitcodes"
+	"github.com/tejzpr/gocryptfs/v2/pkg/fido2"
+	"github.com/tejzpr/gocryptfs/v2/pkg/nametransform"
+	"github.com/tejzpr/gocryptfs/v2/pkg/readpassword"
+	"github.com/tejzpr/gocryptfs/v2/pkg/stupidgcm"
+	"github.com/tejzpr/gocryptfs/v2/pkg/syscallcompat"
+	"github.com/tejzpr/gocryptfs/v2/pkg/tlog"
 )
 
 // isEmptyDir checks if "dir" exists and is an empty directory.

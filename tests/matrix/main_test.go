@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rfjakob/gocryptfs/v2/internal/stupidgcm"
-	"github.com/rfjakob/gocryptfs/v2/tests/test_helpers"
+	"github.com/tejzpr/gocryptfs/v2/pkg/stupidgcm"
+	"github.com/tejzpr/gocryptfs/v2/tests/test_helpers"
 )
 
 // Several tests need to be aware if plaintextnames is active or not, so make this

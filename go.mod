@@ -1,4 +1,4 @@
-module github.com/rfjakob/gocryptfs/v2
+module github.com/tejzpr/gocryptfs/v2
 
 go 1.24.0
 

@@ -6,8 +6,8 @@ import (
 	"runtime/trace"
 	"time"
 
-	"github.com/rfjakob/gocryptfs/v2/internal/exitcodes"
-	"github.com/rfjakob/gocryptfs/v2/internal/tlog"
+	"github.com/tejzpr/gocryptfs/v2/pkg/exitcodes"
+	"github.com/tejzpr/gocryptfs/v2/pkg/tlog"
 )
 
 // setupCpuprofile is called to handle a non-empty "-cpuprofile" cli argument

@@ -17,8 +17,8 @@ import (
 
 	"github.com/pkg/xattr"
 
-	"github.com/rfjakob/gocryptfs/v2/internal/cryptocore"
-	"github.com/rfjakob/gocryptfs/v2/tests/test_helpers"
+	"github.com/tejzpr/gocryptfs/v2/pkg/cryptocore"
+	"github.com/tejzpr/gocryptfs/v2/tests/test_helpers"
 )
 
 func TestMain(m *testing.M) {

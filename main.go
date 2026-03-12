@@ -13,13 +13,13 @@ import (
 
 	"github.com/hanwen/go-fuse/v2/fuse"
 
-	"github.com/rfjakob/gocryptfs/v2/internal/configfile"
-	"github.com/rfjakob/gocryptfs/v2/internal/contentenc"
-	"github.com/rfjakob/gocryptfs/v2/internal/exitcodes"
-	"github.com/rfjakob/gocryptfs/v2/internal/fido2"
-	"github.com/rfjakob/gocryptfs/v2/internal/readpassword"
-	"github.com/rfjakob/gocryptfs/v2/internal/speed"
-	"github.com/rfjakob/gocryptfs/v2/internal/tlog"
+	"github.com/tejzpr/gocryptfs/v2/pkg/configfile"
+	"github.com/tejzpr/gocryptfs/v2/pkg/contentenc"
+	"github.com/tejzpr/gocryptfs/v2/pkg/exitcodes"
+	"github.com/tejzpr/gocryptfs/v2/pkg/fido2"
+	"github.com/tejzpr/gocryptfs/v2/pkg/readpassword"
+	"github.com/tejzpr/gocryptfs/v2/pkg/speed"
+	"github.com/tejzpr/gocryptfs/v2/pkg/tlog"
 )
 
 // loadConfig loads the config file `args.config` and decrypts the masterkey,

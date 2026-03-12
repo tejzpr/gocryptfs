@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/rfjakob/gocryptfs/v2/ctlsock"
-	"github.com/rfjakob/gocryptfs/v2/internal/syscallcompat"
-	"github.com/rfjakob/gocryptfs/v2/tests/test_helpers"
+	"github.com/tejzpr/gocryptfs/v2/ctlsock"
+	"github.com/tejzpr/gocryptfs/v2/pkg/syscallcompat"
+	"github.com/tejzpr/gocryptfs/v2/tests/test_helpers"
 )
 
 // TestLongnameStat checks that file names of all sizes (1 to 255) show up in

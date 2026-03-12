@@ -21,16 +21,16 @@ import (
 	"github.com/hanwen/go-fuse/v2/fs"
 	"github.com/hanwen/go-fuse/v2/fuse"
 
-	"github.com/rfjakob/gocryptfs/v2/internal/configfile"
-	"github.com/rfjakob/gocryptfs/v2/internal/contentenc"
-	"github.com/rfjakob/gocryptfs/v2/internal/cryptocore"
-	"github.com/rfjakob/gocryptfs/v2/internal/ctlsocksrv"
-	"github.com/rfjakob/gocryptfs/v2/internal/exitcodes"
-	"github.com/rfjakob/gocryptfs/v2/internal/fusefrontend"
-	"github.com/rfjakob/gocryptfs/v2/internal/fusefrontend_reverse"
-	"github.com/rfjakob/gocryptfs/v2/internal/nametransform"
-	"github.com/rfjakob/gocryptfs/v2/internal/openfiletable"
-	"github.com/rfjakob/gocryptfs/v2/internal/tlog"
+	"github.com/tejzpr/gocryptfs/v2/pkg/configfile"
+	"github.com/tejzpr/gocryptfs/v2/pkg/contentenc"
+	"github.com/tejzpr/gocryptfs/v2/pkg/cryptocore"
+	"github.com/tejzpr/gocryptfs/v2/pkg/ctlsocksrv"
+	"github.com/tejzpr/gocryptfs/v2/pkg/exitcodes"
+	"github.com/tejzpr/gocryptfs/v2/pkg/fusefrontend"
+	"github.com/tejzpr/gocryptfs/v2/pkg/fusefrontend_reverse"
+	"github.com/tejzpr/gocryptfs/v2/pkg/nametransform"
+	"github.com/tejzpr/gocryptfs/v2/pkg/openfiletable"
+	"github.com/tejzpr/gocryptfs/v2/pkg/tlog"
 )
 
 // AfterUnmount is called after the filesystem has been unmounted.

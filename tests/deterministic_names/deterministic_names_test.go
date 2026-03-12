@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rfjakob/gocryptfs/v2/internal/configfile"
-	"github.com/rfjakob/gocryptfs/v2/tests/test_helpers"
+	"github.com/tejzpr/gocryptfs/v2/pkg/configfile"
+	"github.com/tejzpr/gocryptfs/v2/tests/test_helpers"
 )
 
 var cDir string

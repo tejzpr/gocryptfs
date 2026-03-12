@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/rfjakob/gocryptfs/v2/ctlsock"
-	"github.com/rfjakob/gocryptfs/v2/internal/nametransform"
-	"github.com/rfjakob/gocryptfs/v2/tests/test_helpers"
+	"github.com/tejzpr/gocryptfs/v2/ctlsock"
+	"github.com/tejzpr/gocryptfs/v2/pkg/nametransform"
+	"github.com/tejzpr/gocryptfs/v2/tests/test_helpers"
 )
 
 func ctlsockEncryptPath(t *testing.T, sock string, path string) string {

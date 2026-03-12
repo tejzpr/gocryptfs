@@ -14,8 +14,8 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/rfjakob/gocryptfs/v2/internal/stupidgcm"
-	"github.com/rfjakob/gocryptfs/v2/tests/test_helpers"
+	"github.com/tejzpr/gocryptfs/v2/pkg/stupidgcm"
+	"github.com/tejzpr/gocryptfs/v2/tests/test_helpers"
 )
 
 var opensslOpt string

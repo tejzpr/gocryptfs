@@ -12,9 +12,9 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/rfjakob/gocryptfs/v2/ctlsock"
-	"github.com/rfjakob/gocryptfs/v2/internal/nametransform"
-	"github.com/rfjakob/gocryptfs/v2/internal/syscallcompat"
+	"github.com/tejzpr/gocryptfs/v2/ctlsock"
+	"github.com/tejzpr/gocryptfs/v2/pkg/nametransform"
+	"github.com/tejzpr/gocryptfs/v2/pkg/syscallcompat"
 )
 
 // TmpDir will be created inside this directory, set in init() to
